@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+    <link rel="stylesheet" href="breakpoint.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- ==========================================
+                    Header
+    =========================================== -->
+    <header class="header">
+      <a href="#" class="logo">rezki<span>web.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">kegiatan</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ==========================================
+                  Home Section
+    =========================================== -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Rezki patra</h1>
+        <div class="social-media">
+          <a href="https://www.facebook.com/patra.paikerzz?mibextid=ZbWKwL"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/rezkipatra?igsh=MWI2MzVtZGN4ZmJ6cw=="><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+        <!-- add link for your CV into `href` -->
+        <a href="#home" class="btn">selamat datang</a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/image/rezki 1.jpeg" alt="home" />
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  About Section
+    =========================================== -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/image/rezki 2.jpeg" alt="about" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          nama saya rezki patra saya lahir dari desa padang bindu kec pasma air keruh kab empat lawang di sini saya mau melihatkan kegiatan saya 
+          yg saya tampilkan sekian terimakasi 
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+                  Portfolio Section
+    =========================================== -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">kegiatan <span>saya</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/image/rezki 3.jpeg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>hotel mercure</h4>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/rezki 4.jpeg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>plamboyan</h4>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/rezki5.jpeg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>kampus 4 umb</h4>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/rezki 6.jpeg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>kampus 2 umb</h4>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/rezki 7.jpeg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>flamboyan</h4>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/rezki8.jpeg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>hotel mercure</h4>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Contact Section
+    =========================================== -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://formspree.io/f/mvggvbpg" method="POST">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+    </form>
+    
+    
+    </section>
+
+    <!-- ==========================================
+                    Footer
+    =========================================== -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Callmerev | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+                  Scroll Reveal
+    =========================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ==========================================
+                   Typed Js
+    =========================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ==========================================
+                  Custom Js
+    =========================================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
